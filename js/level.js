@@ -150,7 +150,7 @@ const level = {
             simulation.difficultyMode = 1
         } else {
             simulation.inGameConsole(`<span class='color-var'>level</span>.onLevel <span class='color-symbol'>=</span> "<span class='color-text'>${level.levels[level.onLevel]}</span>"`);
-            document.title = "Thermodynamics: " + level.levelAnnounce();
+            document.title = "Thermodynamics";
         }
 
         level.setConstraints()
